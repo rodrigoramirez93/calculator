@@ -5,9 +5,11 @@
 }
 .title{
     color: white;
+	text-align: center;
 }
 .subtitle{
     color: aqua;
+	text-align: center;
 }
 .div{
     width:450px;
