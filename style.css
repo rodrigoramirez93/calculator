@@ -13,7 +13,7 @@
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
-    ". . . ."
+    ". titulo titulo ."
     ". calculadora calculadora ."
     ". calculadora calculadora ."
     ". . . .";
@@ -25,15 +25,8 @@
 	font-size: 3.5vh;
 	font-style: normal;
 	font-weight: 900;
+	grid-area: titulo;
 
-}
-.subtitle{
-    color: aqua;
-	text-align: center;
-	font-family: 'Tahoma';
-	font-size: 4vh;
-	font-style: normal;
-	font-weight: 900;
 }
 .calculator{
     background-color:blue;
