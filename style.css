@@ -8,12 +8,21 @@
 	height:100%;
 }
 .title{
-    color: white;
+    color: White;
 	text-align: center;
+	font-family: 'Tahoma';
+	font-size: 8vh;
+	font-style: normal;
+	font-weight: 900;
+
 }
 .subtitle{
     color: aqua;
 	text-align: center;
+	font-family: 'Tahoma';
+	font-size: 4vh;
+	font-style: normal;
+	font-weight: 900;
 }
 .calculator{
     background-color:blue;
