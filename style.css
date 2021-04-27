@@ -6,6 +6,17 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 	height:100%;
+	}
+.grid-container-afuera {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . ."
+    ". calculadora calculadora ."
+    ". calculadora calculadora ."
+    ". . . .";
 }
 .title{
     color: White;
@@ -26,8 +37,9 @@
 }
 .calculator{
     background-color:blue;
-	height:50%;
-	width:50%;
+	height:100%;
+	width:100%;
+	grid-area: calculadora;
 }
 .Boton{
 	Padding: 20px;
