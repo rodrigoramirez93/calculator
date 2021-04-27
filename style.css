@@ -47,3 +47,23 @@
 	Color:blue;
 	border-radius: 50px;
     Font-weight: 900;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . ."
+    "siete ocho nueve ."
+    "cuatro cinco seis ."
+    "uno dos tres .";
+	}
+.uno { grid-area: uno; background-color: orange; height: 450px; width: 450px }
+.dos { grid-area: dos; background-color: red; height: 450px; }
+.tres { grid-area: tres; background-color: purple; height: 450px;}
+.cuatro { grid-area: cuatro; background-color: pink; height: 450px; }
+.cinco { grid-area: cinco; background-color: brown; height: 450px; }
+.seis { grid-area: seis; background-color: yellow; height: 450px; }
+.siete { grid-area:  siete; background-color: blue; height: 450px; }
+.ocho { grid-area: ocho; background-color: black; height: 450px; }
+.nueve { grid-area: nueve; background-color: green; height: 450px; }
