@@ -22,7 +22,7 @@
     color: White;
 	text-align: center;
 	font-family: 'Tahoma';
-	font-size: 8vh;
+	font-size: 3.5vh;
 	font-style: normal;
 	font-weight: 900;
 
@@ -47,3 +47,24 @@
 	Color:blue;
 	border-radius: 50px;
     Font-weight: 900;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . ."
+    "siete ocho nueve ."
+    "cuatro cinco seis ."
+    "uno dos tres .";
+	}
+.uno { grid-area: uno; background-color: orange;  }
+.dos { grid-area: dos; background-color: red;  }
+.tres { grid-area: tres; background-color: purple; }
+.cuatro { grid-area: cuatro; background-color: pink;  }
+.cinco { grid-area: cinco; background-color: brown; }
+.seis { grid-area: seis; background-color: yellow; }
+.siete { grid-area:  siete; background-color: aqua;  }
+.ocho { grid-area: ocho; background-color: black; }
+.nueve { grid-area: nueve; background-color: green;  }
