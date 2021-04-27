@@ -1,7 +1,11 @@
+.html{
+	height:100%;
+}
 .body{
 	background-image:url(https://media.tenor.com/images/a64c14c287004324dfef24db1ea82c9c/tenor.gif);
 	background-repeat:no-repeat;
 	background-size:cover;
+	height:100%;
 }
 .title{
     color: white;
@@ -12,9 +16,9 @@
 	text-align: center;
 }
 .calculator{
-    width:450px;
-    height:450px;
-	background-color:blue;
+    background-color:blue;
+	height:50%;
+	width:50%;
 }
 .Boton{
 	Padding: 20px;
