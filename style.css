@@ -18,6 +18,16 @@
     ". calculadora calculadora ."
     ". . . .";
 }
+.titulo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "title title"
+    "subtitle subtitle";
+  grid-area: titulo;
+}  
 .title{
     color: White;
 	text-align: center;
@@ -25,9 +35,19 @@
 	font-size: 3.5vh;
 	font-style: normal;
 	font-weight: 900;
-	grid-area: titulo;
+	grid-area: title;
 
 }
+.subtitle{
+	color:aqua;
+	text-align: center;
+	font-family: 'Tahoma';
+	font-size: 3vh;
+	font-style: italic;
+	font-weight: 800;
+	grid-area: subtitle;
+}	
+	
 .calculator{
     background-color:blue;
 	height:100%;
