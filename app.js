@@ -12,6 +12,11 @@ function multiplicar (a,b){
 function division(a,b){
 	return a / b;
 }
+
+function logear(a){
+	console.log(a);
+}
+
 console.log(sumar(10,10))
 console.log(restar(20,15))
 console.log(multiplicar(4,6))
