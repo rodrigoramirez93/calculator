@@ -16,7 +16,7 @@
     ". titulo titulo ."
     ". calculadora calculadora ."
     ". calculadora calculadora ."
-    ". . . .";
+    ". button button .";
 }
 .titulo {
   display: grid;
@@ -39,7 +39,7 @@
 
 }
 .subtitle{
-	color:aqua;
+	color: red;
 	text-align: center;
 	font-family: 'Tahoma';
 	font-size: 3vh;
@@ -60,7 +60,17 @@
 	Color:blue;
 	border-radius: 50px;
     Font-weight: 900;
+	grid-area: button;	
 }
+.perdon{
+	display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+	 "button button";
+	grid-area: button;
+}	
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
