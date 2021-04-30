@@ -78,16 +78,17 @@
 	grid-area: button;
 }
 
-.grid-container{
+.grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 	gap: 0px 0px;
 	grid-template-areas:
 	". . . ."
 	"siete ocho nueve ."
 	"cuatro cinco seis ."
-	"uno dos tres .";
+	"uno dos tres ."
+	"cero . . .";
 }
 
 .uno{
@@ -133,4 +134,8 @@
 .nueve{
 	grid-area: nueve;
 	background-color: green;
+}
+.cero{
+	grid-area: cero;
+	background-color: white;
 }
