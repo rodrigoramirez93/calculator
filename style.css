@@ -81,24 +81,23 @@
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 	gap: 0px 0px;
 	grid-template-areas:
+	"pantalla pantalla pantalla pantalla pantalla"
 	". . . . ."
 	". siete ocho nueve multiplicacion"
 	". cuatro cinco seis resta"
 	"clear uno dos tres suma"
 	". cero punto resultado suma";
 }
-
-.suma {
-	grid-area: suma;
-	border: 6px solid gray;
-	background-color: #2d3038;
-	border-radius: 29px;
-	font-family: fantasy;
-	font-size: 61px;
-	color: floralwhite;
+.pantalla{
+	grid-area: pantalla;
+	border:2px solid red;
+}
+.siete{
+	grid-area:  siete;
+	background-color: aqua;
 }
 
 .uno{
