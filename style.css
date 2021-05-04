@@ -135,12 +135,12 @@
 	background-color: purple;
 }
 
-.cero{
-	grid-area: cero;
-	background-color: white;
-}
-
 .suma{
 	grid-area: suma;
 	border: 2px solid blue;
+}
+
+.cero{
+	grid-area: cero;
+	background-color: white;
 }
