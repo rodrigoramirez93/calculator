@@ -80,15 +80,20 @@
 
 .grid-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 	gap: 0px 0px;
 	grid-template-areas:
-	". . . ."
-	"siete ocho nueve ."
-	"cuatro cinco seis ."
-	"uno dos tres ."
-	"cero . . .";
+	". . . . ."
+	". siete ocho nueve multiplicacion"
+	". cuatro cinco seis resta"
+	"clear uno dos tres suma"
+	". cero punto resultado suma";
+}
+
+.suma {
+	grid-area: suma;
+	border: 2px solid blue;
 }
 
 .uno{
@@ -135,7 +140,9 @@
 	grid-area: nueve;
 	background-color: green;
 }
+
 .cero{
 	grid-area: cero;
 	background-color: white;
 }
+
