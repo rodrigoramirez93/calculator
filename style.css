@@ -53,7 +53,7 @@
 }
 
 .calculator{
-	background-color:blue;
+	background-color:#D8DAD6;
 	height:100%;
 	width:100%;
 	grid-area: calculadora;
@@ -90,49 +90,51 @@
 	"clear uno dos tres suma"
 	". cero punto resultado suma";
 }
-.siete{
-	grid-area:  siete;
-	background-color: aqua;
-}
 
-.ocho{
-	grid-area: ocho;
-	background-color: black;
-}
-
-.nueve{
-	grid-area: nueve;
-	background-color: green;
-}
-
-.cuatro{
-	grid-area: cuatro;
-	background-color: pink;
-}
-
-.cinco{
-	grid-area: cinco;
-	background-color: brown;
-}
-
-.seis{
-	grid-area: seis;
-	background-color: yellow;
+.suma {
+	grid-area: suma;
+	border: 6px solid gray;
+	background-color: #2d3038;
+	border-radius: 29px;
+	font-family: fantasy;
+	font-size: 61px;
+	color: floralwhite;
 }
 
 .uno{
 	grid-area: uno;
-	background-color: orange;
 }
 
 .dos{
 	grid-area: dos;
-	background-color: red;
 }
 
 .tres{
 	grid-area: tres;
-	background-color: purple;
+}
+
+.cuatro{
+	grid-area: cuatro;
+}
+
+.cinco{
+	grid-area: cinco;
+}
+
+.seis{
+	grid-area: seis;
+}
+
+.siete{
+	grid-area:  siete;
+}
+
+.ocho{
+	grid-area: ocho;
+}
+
+.nueve{
+	grid-area: nueve;
 }
 
 .suma{
@@ -142,5 +144,12 @@
 
 .cero{
 	grid-area: cero;
-	background-color: white;
 }
+
+.estilo-boton{
+	background-color: #2d3038;
+	border-radius: 22px;
+	font-family: fantasy;
+	font-size: 35px;
+	color: floralwhite;
+	border: 4px solid gray
