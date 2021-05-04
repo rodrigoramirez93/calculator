@@ -90,25 +90,19 @@
 	"clear uno dos tres suma"
 	". cero punto resultado suma";
 }
-
-.suma {
-	grid-area: suma;
-	border: 2px solid blue;
+.siete{
+	grid-area:  siete;
+	background-color: aqua;
 }
 
-.uno{
-	grid-area: uno;
-	background-color: orange;
+.ocho{
+	grid-area: ocho;
+	background-color: black;
 }
 
-.dos{
-	grid-area: dos;
-	background-color: red;
-}
-
-.tres{
-	grid-area: tres;
-	background-color: purple;
+.nueve{
+	grid-area: nueve;
+	background-color: green;
 }
 
 .cuatro{
@@ -126,19 +120,19 @@
 	background-color: yellow;
 }
 
-.siete{
-	grid-area:  siete;
-	background-color: aqua;
+.uno{
+	grid-area: uno;
+	background-color: orange;
 }
 
-.ocho{
-	grid-area: ocho;
-	background-color: black;
+.dos{
+	grid-area: dos;
+	background-color: red;
 }
 
-.nueve{
-	grid-area: nueve;
-	background-color: green;
+.tres{
+	grid-area: tres;
+	background-color: purple;
 }
 
 .cero{
@@ -146,3 +140,7 @@
 	background-color: white;
 }
 
+.suma{
+	grid-area: suma;
+	border: 2px solid blue;
+}
