@@ -151,4 +151,10 @@
 	font-family: fantasy;
 	font-size: 35px;
 	color: floralwhite;
-	border: 4px solid gray
+	border: 4px solid gray;
+	cursor: pointer;
+}
+
+.estilo-boton:hover{
+	background-color: gray
+}
