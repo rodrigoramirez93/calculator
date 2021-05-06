@@ -16,6 +16,11 @@ function dividir(a,b){
 function logear(a){
 	console.log(a);
 }
+function EscribeUno(){
+	var BotonUno = document.getElementById("pantalla");
+	console.log(BotonUno);
+	BotonUno.innerText="1"
+}
 
 //comentarios:
 //che hago este codigo rancio asi, porque x persona me dijo
