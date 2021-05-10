@@ -16,9 +16,5 @@ function dividir(a,b){
 function logear(a){
 	console.log(a);
 }
-function EscribeUno(){
-	var BotonUno = document.getElementById("pantalla");
-	console.log(BotonUno);
-	BotonUno.innerText="1"
-}
+
 
