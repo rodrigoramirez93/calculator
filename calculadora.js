@@ -1,8 +1,7 @@
 alert("chau")
 
-function escribeDos(){
+function escribirNumerazos(numerazo){
 	var pantalla = document.getElementById('pantalla');
-	pantalla.innerText = '2';
-	console.log(pantalla);
-	pantalla.innertext = '2';
+	pantalla.innerText = pantalla.innertext + numerazo;
+	console.log(pantalla.innerText);
 }
