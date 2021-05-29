@@ -18,3 +18,9 @@ function logear(a){
 }
 
 
+function reiniciarNumerazos() {
+	var pantalla = document.getElementById('pantalla');
+		pantalla.innerText = '0'  ;
+		console.log(pantalla.innerText);
+
+}

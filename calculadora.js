@@ -2,6 +2,10 @@ alert("chau")
 
 function escribirNumerazos(numerazo){
 	var pantalla = document.getElementById('pantalla');
-	pantalla.innerText = pantalla.innerText += numerazo;
+    var valorEnPantallaEsCero = pantalla.innerText=='0'
+	if(valorEnPantallaEsCero){	
+		pantalla.innerText='';
+	} 
+	pantalla.innerText += numerazo;
 	console.log(pantalla.innerText);
 }

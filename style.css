@@ -21,6 +21,7 @@
 	". button button .";
 }
 
+
 .titulo{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -87,13 +88,20 @@
 	"pantalla pantalla pantalla pantalla pantalla"
 	". . . . ."
 	". siete ocho nueve borrar"
-	". cuatro cinco seis resta"
+	". cuatro cinco seis reinicio"
 	"clear uno dos tres suma"
 	". cero punto resultado suma";
 }
 .borrar{
 	grid-area: borrar;
 }
+
+.reinicio {
+	grid-area: reinicio;
+
+}
+	
+
 .pantalla{
 	grid-area: pantalla;
 	border:2px solid red;
