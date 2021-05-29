@@ -86,10 +86,13 @@
 	grid-template-areas:
 	"pantalla pantalla pantalla pantalla pantalla"
 	". . . . ."
-	". siete ocho nueve multiplicacion"
+	". siete ocho nueve borrar"
 	". cuatro cinco seis resta"
 	"clear uno dos tres suma"
 	". cero punto resultado suma";
+}
+.borrar{
+	grid-area: borrar;
 }
 .pantalla{
 	grid-area: pantalla;
