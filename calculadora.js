@@ -7,3 +7,13 @@ function escribirNumerazos(numerazo){
 	pantalla.innerText += numerazo;
 	console.log(pantalla.innerText);
 }
+
+function borrarNumerazos(){
+	var str = innerText
+	var arr = str.split("")
+	arr.pop();
+	var pantalla = document.getElementById("pantalla");
+	pantalla.innerText
+	console.log(pantalla.innerText);
+	
+}
