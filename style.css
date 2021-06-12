@@ -18,7 +18,7 @@
 	". titulo titulo ."
 	". calculadora calculadora ."
 	". calculadora calculadora ."
-	". button button .";
+	". . fasito .";
 }
 
 
@@ -60,23 +60,26 @@
 	grid-area: calculadora;
 }
 
-.boton-perdon{
+
+.boton-contenedor {
+	grid-area: fasito;
+
+}
+
+.boton{
 	Padding: 20px;
 	background-color:#FFD133;
 	Color:blue;
 	border-radius: 50px;
-	Font-weight: 900;
+	Font-weight: 90	0;
 	grid-area: button;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
-.perdon{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	gap: 0px 0px;
-	grid-template-areas:
-	 "button button";
-	grid-area: button;
+.boton:hover {
+    background-color: #f30808; /* Red */
+    color: white;
 }
 
 .grid-container {
