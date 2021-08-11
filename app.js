@@ -15,7 +15,6 @@ function logear(a){
 	console.log(a);
 }
 
-//esta funcion reinicianumerazos
 function reiniciarNumerazos() {
 	var pantalla = document.getElementById('pantalla');
 		pantalla.innerText = '0'  ;
