@@ -3,9 +3,9 @@
 }
 
 .body{
-	background-image:url(./images/background.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
+	background-image:url(./images/subject_goloso.PNG);
+	background-repeat: no-repeat;
+	background-size: auto;
 	height:100%;
 }
 
