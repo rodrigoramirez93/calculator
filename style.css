@@ -95,16 +95,16 @@
 
 .grid-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 	gap: 0px 0px;
 	grid-template-areas:
-	"pantalla pantalla pantalla pantalla pantalla"
-	". . . . ."
-	". siete ocho nueve borrar"
-	". cuatro cinco seis reinicio"
-	"clear uno dos tres suma"
-	". cero punto resultado suma";
+	"pantalla pantalla pantalla pantalla"
+	". . . ."
+	"siete ocho nueve borrar"
+	"cuatro cinco seis reinicio"
+	"uno dos tres suma"
+	"cero punto resultado suma";
 }
 .borrar{
 	grid-area: borrar;
@@ -167,6 +167,10 @@
 
 .cero{
 	grid-area: cero;
+}
+
+.punto{
+	grid-area: .;
 }
 
 .estilo-boton{
