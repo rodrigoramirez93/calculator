@@ -118,7 +118,6 @@
 
 .pantalla{
 	grid-area: pantalla;
-	border:2px solid red;
 }
 .siete{
 	grid-area:  siete;
