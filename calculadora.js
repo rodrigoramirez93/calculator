@@ -17,5 +17,5 @@ function borrarNumerazos()
 	if(ValorEnPantallaEsStringVacio){
 		pantalla.innerText="0";
 	}
-  console.log(strRecortado); 
+  console.log("strRecortado",strRecortado); 
 }
